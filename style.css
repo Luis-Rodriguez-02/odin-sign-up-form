@@ -127,14 +127,24 @@ body {
 }
 
 .submit-button-wrapper button {
-  padding: 0.75rem;
   width: 20%;
   color: white;
   background-color: var(--footer-login);
   border-radius: 5px;
   border: 1px solid;
+  padding: clamp(0.5rem, 1vw, 0.75rem);
+  width: clamp(150px, 20%, 250px);
 }
 
 footer .login {
   color: var(--footer-login);
+}
+
+footer .login:hover {
+  cursor: pointer;
+}
+
+.submit-button-wrapper button:hover {
+  background-color: #395734; /* slightly darker green */
+  cursor: pointer;
 }
