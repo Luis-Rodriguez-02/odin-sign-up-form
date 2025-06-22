@@ -21,21 +21,63 @@
     <main class="main-content">
       <!-- A header to contain introductory text, a main section to contain the form, and a footer to contain the submit button -->
       <header>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vitae
-        ipsam a eius culpa perspiciatis totam est id eum consequuntur nobis
-        laborum perferendis quidem dolore atque doloribus non, debitis ipsum.
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <em>now</em> to get started.</p>
+        <p><br /><em>You know</em> you want to.</p>
       </header>
       <main>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim et
-        officia maxime. Saepe alias accusantium commodi ullam aspernatur
-        recusandae culpa quibusdam, voluptate magni blanditiis. Doloremque
-        voluptas autem aut iure officiis.
+        <h3>Let's do this!</h3>
+        <form action="" method="get">
+          <div class="name-wrapper">
+            <div class="input-pair">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+
+            <div class="input-pair">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name" />
+            </div>
+          </div>
+
+          <div class="email-phone-wrapper">
+            <div class="input-pair">
+              <label for="email">EMAIL </label>
+              <input type="email" id="email" name="email" />
+            </div>
+
+            <div class="input-pair">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+
+          <div class="password-wrapper">
+            <div class="input-pair">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+
+            <div class="input-pair">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+              />
+            </div>
+          </div>
+        </form>
       </main>
       <footer>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem provident
-        non ratione ducimus, et quia ipsam, harum animi facere earum aperiam
-        suscipit accusamus inventore nemo cupiditate porro, voluptatum facilis?
-        Perspiciatis?
+        <div class="submit-button-wrapper">
+          <button>Create Account</button>
+        </div>
+        <p>Already have an account? <span class="login">Log in</span></p>
       </footer>
     </main>
   </body>
